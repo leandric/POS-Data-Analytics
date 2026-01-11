@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "tech-challenge-fase-2"
+version = "0.1.0"
+description = ""
+authors = ["Leandro e Marcos"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+statsmodels = "^0.14.1"
+mplfinance = "^0.12.10b0"
+plotly = "^5.19.0"
+autots = "^0.6.10"
+prophet = "^1.1.5"
+keras = "^3.0.5"
+tensorflow = "^2.15.0.post1"
+seaborn = "^0.13.2"
+statsforecast = "^1.7.3"
+auto-ts = "^0.0.90"
+pmdarima = "^2.0.4"
+xgboost = "^2.0.3"
+yfinance = "^0.2.37"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
